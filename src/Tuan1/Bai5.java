@@ -48,8 +48,8 @@ public class Bai5 {
         return res;
     }
     public static void main(String[] args) {
-        String s="catsanddog";
-        List<String> wordDict = Arrays.asList("cat", "cats", "and", "sand", "dog");
+        String s="sondeptrai";
+        List<String> wordDict = Arrays.asList("son", "dep", "trai", "sond", "ep","trai");
         List<String> result=WordBreakResult(s,wordDict);
         System.out.println(result.size());
         for (String string : result) {
